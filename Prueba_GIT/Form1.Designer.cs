@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             checkBox1 = new CheckBox();
+            comboBox1 = new ComboBox();
             SuspendLayout();
             // 
             // checkBox1
@@ -41,11 +42,20 @@
             checkBox1.Text = "checkBox1";
             checkBox1.UseVisualStyleBackColor = true;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(383, 92);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(151, 28);
+            comboBox1.TabIndex = 1;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(comboBox1);
             Controls.Add(checkBox1);
             Name = "Form1";
             Text = "Form1";
@@ -56,5 +66,6 @@
         #endregion
 
         private CheckBox checkBox1;
+        private ComboBox comboBox1;
     }
 }
