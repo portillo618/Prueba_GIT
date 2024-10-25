@@ -32,6 +32,7 @@
             listBox1 = new ListBox();
             checkedListBox1 = new CheckedListBox();
             label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // checkBox1
@@ -71,11 +72,21 @@
             label1.TabIndex = 3;
             label1.Text = "Si funciona";
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(522, 268);
+            label2.Name = "label2";
+            label2.Size = new Size(89, 20);
+            label2.TabIndex = 4;
+            label2.Text = "Otra prueba";
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(821, 429);
+            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(checkedListBox1);
             Controls.Add(listBox1);
@@ -93,5 +104,6 @@
         private ListBox listBox1;
         private CheckedListBox checkedListBox1;
         private Label label1;
+        private Label label2;
     }
 }
