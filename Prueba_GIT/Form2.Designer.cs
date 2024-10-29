@@ -41,7 +41,7 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(343, 156);
+            checkBox1.Location = new Point(345, 118);
             checkBox1.Margin = new Padding(3, 4, 3, 4);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(101, 24);
@@ -52,7 +52,7 @@
             // listBox1
             // 
             listBox1.FormattingEnabled = true;
-            listBox1.Location = new Point(553, 99);
+            listBox1.Location = new Point(552, 61);
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(150, 104);
             listBox1.TabIndex = 1;
@@ -60,7 +60,7 @@
             // checkedListBox1
             // 
             checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Location = new Point(122, 95);
+            checkedListBox1.Location = new Point(109, 61);
             checkedListBox1.Margin = new Padding(3, 4, 3, 4);
             checkedListBox1.Name = "checkedListBox1";
             checkedListBox1.Size = new Size(137, 70);
